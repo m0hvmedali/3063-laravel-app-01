@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+<<<<<<< HEAD
 
 Route::get('/users', function () {
     return 'Users Page';
@@ -149,3 +150,5 @@ Route::prefix('customers')->group(function () {
 Route::fallback(function () {
     return view('errors.404');
 });
+=======
+>>>>>>> 9a12ffc (start)

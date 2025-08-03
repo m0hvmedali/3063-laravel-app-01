@@ -1,5 +1,9 @@
 *.log
 .DS_Store
+<<<<<<< HEAD
+=======
+.env
+>>>>>>> 9a12ffc (start)
 .env.backup
 .env.production
 .phpactor.json
